@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <!-- metadata -->
+  <meta charset="UTF-8">
+  <meta name="author" content="Maby Gavilan Abanto">
+  <meta name="description" content="Maby's Web Development Portfolio">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Django, Flask, React, Python, SQL, MongoDB, Node, R, Latex">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- titulo -->
+  <title>Maby Gavilan | Backend Developer</title>
+
+  <!-- favicon -->
+  <link rel="icon" href="images/recycle.png" type="image/x-icon">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <!-- bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- navigation Bar -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toogler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toogler">
+        <a class="navbar-brand" href="#">
+          <img src="images/recycle.png" width="50" alt="My logo">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My Projects</a>
+          </li>
+          <li>
+            <a class="nav-link" href="#">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Me</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Seccion Hero -->
+  <section class="hero align-items-stetch">
+    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="hero-my-picture" src="images/tingo_maria_stream.jpg" alt="Maby's picture">
+      <h1>Hi, it's Maby</h1>
+      <h2>I am learning to develop websites and write articles about programming and hydrology.</h2>
+    </div>
+
+    <div class="hero-inferior">
+      <img class="hero-inferior-imagen img-fluid" src="images/hero-inferior.svg" alt="JS, html, css picture">
+    </div>
+  </section>
+
+  <!-- About me -->
+  <section class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+
+      <h2 class="seccion-titulo">Meet Maby</h2>
+      <p class="seccion-texto">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus fringilla cursus. Nullam ultricies massa
+        leo, accumsan congue neque facilisis at. Donec mollis leo at risus fringilla feugiat. Duis semper enim neque.
+        Nam eu tempor odio, non aliquet libero. Etiam egestas magna magna, dignissim semper tortor pharetra id. Sed
+        accumsan lobortis egestas. Phasellus molestie hendrerit ante sed dictum. Mauris nec venenatis massa. Praesent ac
+        nisl at sem lobortis elementum.
+      </p>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+        <!-- Web Dev -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Web Development</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus fringilla cursus. Nullam ultricies
+            massa leo, accumsan congue neque facilisis at.
+          </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">HTML</span>
+            <span class="badge text-bg-primary">CSS</span>
+            <span class="badge text-bg-primary">JavaScript</span>
+            <span class="badge text-bg-primary">Express</span>
+          </div>
+
+        </div>
+
+        <!-- Artcles -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Artículos</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus fringilla cursus. Nullam ultricies
+            massa leo, accumsan congue neque facilisis at.
+          </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Escribir</span>
+            <span class="badge text-bg-primary">Editar</span>
+          </div>
+
+        </div>
+
+        <!-- Estudiante -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">Estudiante</p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus fringilla cursus. Nullam ultricies
+            massa leo, accumsan congue neque facilisis at.
+          </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">freeCodeCamp</span>
+            <span class="badge text-bg-primary">Backend Development -- Silabuz</span>
+            <span class="badge text-bg-primary">Machine Learning</span>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos de los proyectos que he creado recientemente...</h3>
+    <!-- Galreia de proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!-- Proyecto 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images/proyecto3.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Vet and pet house project</p>
+              <div class="iconos-centenedor">
+                <a href="https://github.com/ProyectoUnidad8" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://frontend-942d0fpub-proyectou8.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images/proyecto2.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Pokedex project</p>
+              <div class="iconos-centenedor">
+                <a href="https://github.com/maby200/pokedex-supabase" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://mabyga-pokedex.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 4 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images/proyecto4.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Protfolio using Django</p>
+              <div class="iconos-centenedor">
+                <a href="https://github.com/maby200/template-django" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <!-- <a href="https://mabyga-pokedex.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="images/proyecto1_1.png" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Streamflow forecasting </p>
+              <div class="iconos-centenedor">
+                <!-- <a href="" target="_blank" rel="noopener noreferrer"> -->
+                <img src="images/under_construction.png" alt="Prooject in development">
+                <!-- </a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/maby200/" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn btn-info">
+        <!-- Ver más proyectos -->
+        <i class="bi bi-arrow-right-circle-fill"> See more projects</i>
+      </button>
+    </a>
+  </section>
+
+  <!-- Articulos -->
+  <section class="articulos justify-content-start">
+    <h2 class="seccion-titulo texto-negro">Articles</h2>
+    <div class="card">
+      <div class="card-header">
+        Latest
+      </div>
+      <ul class="list-group list-group-flush">
+        <a href="https://medium.com/@maby200/fire-classification-from-nasa-firms-modis-or-viirs-hotspots-a-telengana-case-study-105e5d96c1f"
+          target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">
+            Fire classification from NASA FIRMS MODIS or VIIRS hotspots: A Telangana case study
+          </li>
+        </a>
+        <!-- <a href="https://medium.com/@maby200/fire-classification-from-nasa-firms-modis-or-viirs-hotspots-a-telengana-case-study-105e5d96c1f"
+          target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">
+            Fire classification from NASA FIRMS MODIS or VIIRS hotspots: A Telangana case study
+          </li>
+        </a>
+        <a href="https://medium.com/@maby200/fire-classification-from-nasa-firms-modis-or-viirs-hotspots-a-telengana-case-study-105e5d96c1f"
+          target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">
+            Fire classification from NASA FIRMS MODIS or VIIRS hotspots: A Telangana case study
+          </li>
+        </a>
+        <a href="https://medium.com/@maby200/fire-classification-from-nasa-firms-modis-or-viirs-hotspots-a-telengana-case-study-105e5d96c1f"
+          target="_blank" rel="noopener noreferrer">
+          <li class="list-group-item">
+            Fire classification from NASA FIRMS MODIS or VIIRS hotspots: A Telangana case study
+          </li>
+        </a> -->
+      </ul>
+    </div>
+
+    <button type="button" class="btn btn-info"">
+      See more articles</button>
+
+  </section>
+
+  <!-- Testimonials -->
+  <section class=" testimonios seccion-clara">
+      <h2 class="seccion-titulo">Testimonials</h2>
+      <h3 class="seccion-descripcion">Some testimonials from people I worked with</h3>
+      <!-- Carrusel -->
+      <div id="testimonios-carousel" class="carousel carousel-dark slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- <img src="images/proyecto1_1.png" class="d-block w-100" alt="..."> -->
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="images/fotoMaby.jpg" alt="Foto Maby">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus
+                fringilla cursus. Nullam ultricies massa
+                leo, accumsan congue neque facilisis at. Donec mollis leo at risus fringilla feugiat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Maby</p>
+                <p class="cargo">Gerente de proyectos Web Dev</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="images/fotoMaby.jpg" alt="Foto Maby">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus
+                fringilla cursus. Nullam ultricies massa
+                leo, accumsan congue neque facilisis at. Donec mollis leo at risus fringilla feugiat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Maby</p>
+                <p class="cargo">Gerente de proyectos Web Dev</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="images/fotoMaby.jpg" alt="Foto Maby">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi luctus
+                fringilla cursus. Nullam ultricies massa
+                leo, accumsan congue neque facilisis at. Donec mollis leo at risus fringilla feugiat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Maby</p>
+                <p class="cargo">Gerente de proyectos Web Dev</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+
+  <!-- Contacto -->
+  <section class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            Let's talk!
+          </div>
+          <div class="col-12 col-md-4 description">
+            Contact me to create your next app and stand out on the market
+          </div>
+          <div class="col-12 col-md-4 description">
+            <a href="mailto:maesgaab@gmail.com">
+              <button type="button">
+                Contact
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-icon" src="images/icono-blanco.svg" alt="Project Logo">
+    <p class="footer-text text-center">Learning and creating everyday.<br>Let's create a project together.</p>
+    <div class="social-media-icons d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://twitter.com/geosci_mg" target="_blank" rel="noopenet noreferrer">
+        <i class="bi bi-"></i>
+      </a>
+      <a href="https://twitter.com/geosci_mg" target="_blank" rel="noopenet noreferrer">
+        <i class="bi bi-"></i>
+      </a>
+      <a href="https://twitter.com/geosci_mg" target="_blank" rel="noopenet noreferrer">
+        <i class="bi bi-"></i>
+      </a>
+      <a href="https://twitter.com/geosci_mg" target="_blank" rel="noopenet noreferrer">
+        <i class="bi bi-"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
