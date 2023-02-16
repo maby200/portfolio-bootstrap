@@ -250,7 +250,7 @@ h1 {
 }
 
 .testimonio-texto {
-  max-width: 70%;
+  max-width: 80%;
   font-size: 16px;
   text-align:center;
   font-family: 'Share Tech Mono', monospace;
@@ -395,12 +395,12 @@ footer {
 
 @media screen and (max-width: 800) {
   .testimonio-imagen {
-    height: 80px;
-    width: 80px;
+    height: 120px;
+    width: 120px;
   }
 
   .testimonio-texto {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
